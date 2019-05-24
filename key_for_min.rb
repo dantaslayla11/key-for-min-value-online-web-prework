@@ -11,6 +11,5 @@ def key_for_min_value(name_hash)
       lowest_shit = k 
     end
   end
-  puts lowest_shit
   lowest_shit
 end
