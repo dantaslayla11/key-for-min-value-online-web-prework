@@ -2,6 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  return if name_hash.nil?
   lowest_value=9999
   lowest_shit = "fuck"
   name_hash.each do  |k, v|
